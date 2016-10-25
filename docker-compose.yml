@@ -7,7 +7,7 @@ services:
     - ./data/influxdb:/data
 
  influxdb:
-  image: tutum/influxdb:0.9
+  image: tutum/influxdb:0.13
   restart: always
   environment:
     - PRE_CREATE_DB=cadvisor
